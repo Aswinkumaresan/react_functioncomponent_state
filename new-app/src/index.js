@@ -5,6 +5,7 @@ import App from './App';
 // import Parent_function from './Parent_function/Parent_function';
 // import Parentclass from './ParentClass/Parentclass';
 import ParentStateFunc from './Parent_state/Parent_StateFunc';
+// import Parent_class_state_file from './Parent_class_state/Parent_class_state_file.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +13,7 @@ root.render(
   // <Parent_function/>
   // <Parentclass/>
   <ParentStateFunc />
+  // <Parent_class_state_file/>
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
