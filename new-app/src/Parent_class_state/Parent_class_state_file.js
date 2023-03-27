@@ -80,6 +80,7 @@ export class Parent_class_state_file extends Component {
   sortAlpha=()=>{
     const sortedbyalpha=[...this.state.mobiles.sort((a,b)=>
       a.name.localeCompare(b.name))]
+      this.setState({sortedbyalpha})
       console.log(sortedbyalpha);
   }
 
